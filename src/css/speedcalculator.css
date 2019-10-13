@@ -1,0 +1,43 @@
+
+.speed-calculator-box {
+	background-color: white;
+	flex-grow: 1;
+	margin: 60px 16px 16px;
+	width: 90%;
+	max-width: 700px;
+}
+
+
+.outerBox {
+	display: flex;
+	flex-direction: column;
+	margin:10px;
+	height: 400px;
+	max-height: 80%;
+}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	align-items: center;
+}
+
+.input-field {
+	height: 20px;
+	margin-top: 5px;
+	max-width:80px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.input-field:focus {
+	outline: none;
+}
+
+.last-five-calc{
+	transition: all 1s ease-out;
+}
